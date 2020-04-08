@@ -1,0 +1,20 @@
+- Auto Rename Tag
+- Auto Close Tag
+- Bracket Pair Colorizer 2
+- CSS Peek
+- Color Picker
+- Color Highlight
+- Live Server
+- Live Sass Compiler
+- Prettier - Code formatter
+- ESLint
+- DotENV
+- Setting sync
+- SCSS IntelliSense
+- ES7 React/Redux/GraphQL/React-Native snippets
+- vscode-styled-components
+- Path Intellisense
+- Better Comments
+- Svg Preview
+- primal theme
+- Metrial Icon Theme

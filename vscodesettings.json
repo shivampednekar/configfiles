@@ -1,0 +1,61 @@
+{
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "editor.fontFamily": "Dank Mono, Operator Mono",
+  "editor.minimap.enabled": false,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 37,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.tabSize": 2,
+  "editor.cursorWidth": 3,
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "solid",
+  "editor.wordWrap": "on",
+  "sync.gist": "9108b85452251bf9fef588beea6f342c",
+  "editor.suggestSelection": "first",
+  "zenMode.centerLayout": false,
+  "editor.renderWhitespace": "boundary",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  // ENABLE FORMAT ON SAVE WITH PRETTIER FOR EVERYTHING OTHER THAN JS, JS REACT, TS and TS REACT
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // "[javascript]": {
+  //   "editor.formatOnSave": false,
+  // },
+  // "[javascriptreact]": {
+  //   "editor.formatOnSave": false,
+  // },
+  // "[typescript]": {
+  //   "editor.formatOnSave": false,
+  // },
+  // "[typescriptreact]": {
+  //   "editor.formatOnSave": false,
+  // },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.rendererType": "dom",
+  "editor.colorDecorators": false,
+  "terminal.integrated.fontSize": 17,
+  "window.zoomLevel": 0,
+  "prettier.singleQuote": true,
+  "workbench.editor.tabSizing": "shrink",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "terminal.integrated.fontFamily": "Dank Mono",
+  "workbench.colorTheme": "Overnight Slumber Italics",
+  "workbench.activityBar.visible": false,
+  "breadcrumbs.enabled": true,
+  "workbench.fontAliasing": "auto",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "javascript.updateImportsOnFileMove.enabled": "always"
+}
