@@ -68,7 +68,7 @@ module.exports = {
     showWindowControls: '',
 
     // custom padding (CSS format, i.e.: `top right bottom left`)
-    padding: '12px 14px',
+    padding: '13px 14px',
 
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
@@ -92,6 +92,11 @@ module.exports = {
       lightWhite: '#FFFFFF',
     },
 
+    pokemon: 'random', // Choose your favorite pokemon theme
+    unibody: 'true', // Choose the color of the window header
+    pokemonSyntax: 'light',
+    poketab: 'false', // Deactivate your theme's poketab
+
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
     // if left empty, your system's login shell will be used by default
     //
@@ -104,7 +109,7 @@ module.exports = {
     //
     // PowerShell on Windows
     // - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
-    shell: '',
+    shell: 'C:\\Program Files\\Git\\bin\\bash.exe',
 
     // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
     // by default `['--login']` will be used
@@ -137,6 +142,8 @@ module.exports = {
     // Whether to use the WebGL renderer. Set it to false to use canvas-based
     // rendering (slower, but supports transparent backgrounds)
     webGLRenderer: true,
+
+    // for advanced config flags please refer to https://hyper.is/#cfg
   },
 
   // a list of plugins to fetch and install from npm
@@ -147,11 +154,9 @@ module.exports = {
   //   `project#1.0.1`
 
   plugins: [
-    'shades-of-purple-hyper',
-    'hyperborder',
-    'hyper-snazzy',
+    'hyper-pokemon',
     'hypercwd',
-    'hyper-statusline',
+    'hyper-tabs-enhanced',
     'hyper-alt-click',
     'hyper-blink',
     'hyperterm-safepaste',
@@ -159,7 +164,8 @@ module.exports = {
     'hypergoogle',
     'hyper-tab-icons',
     'hyper-hide-title',
-    'shades-of-purple-hyper',
+    // 'hyper-statusline',
+    // 'hyperborder',
   ],
 
   // in development, you can create a directory under
